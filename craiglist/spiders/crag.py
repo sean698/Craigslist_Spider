@@ -1,7 +1,5 @@
 import scrapy
 
-# Run this program with the following command
-# scrapy crawl crag -a category='https://XXXXX.craigslist.org/search/XXXXX' -o result.json
 class CragSpider(scrapy.Spider):
     name = 'crag'
     allowed_domains = ['vancouver.craigslist.org']
