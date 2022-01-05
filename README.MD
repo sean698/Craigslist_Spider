@@ -1,5 +1,5 @@
 # Craigslist Spider
-This program using Scrapy to crawl the Craigslist website. It scraps data from every list in selected categroy, including date, title, url, description, images, and then output data to csv or json file.
+This program using Scrapy to crawl the Craigslist website. It scraps data from every post in selected categroy, including date, title, url, description, images, and then output data to csv or json file.
 
 ## Usage
 ```bash
